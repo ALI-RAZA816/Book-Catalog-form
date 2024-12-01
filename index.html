@@ -87,9 +87,9 @@
             if(title && author && year){
                 books.push({title,author,year});
                 renderbooks();
-                title=='';
-                year=='';
-                author=='';
+                title.value=='';
+                year.value=='';
+                author.value=='';
             }else{
                 alert('All fields is required');
             }
